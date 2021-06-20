@@ -10,9 +10,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="65"
+        android:layout_marginTop="65dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="110"
+        android:layout_marginBottom="110dp"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,64 +24,65 @@
             android:id="@+id/titleText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="35"
+            android:layout_marginBottom="35dp"
             android:autoText="false"
             android:gravity="center"
             android:text="Widgets With Listeners"
-            android:textSize="32" />
+            android:textSize="32dp" />
 
         <Button
             android:id="@+id/redButton"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10"
-            android:layout_marginTop="0"
-            android:layout_marginRight="10"
-            android:layout_marginBottom="10"
-            android:background="@android:color/holo_red_light"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#ff595e"
             android:text="Red" />
 
         <Button
             android:id="@+id/blueButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10"
-            android:layout_marginTop="10"
-            android:layout_marginRight="10"
-            android:layout_marginBottom="10"
-            android:background="@android:color/holo_blue_light"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#1982c4"
             android:text="Blue" />
 
         <Button
             android:id="@+id/greenButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10"
-            android:layout_marginTop="10"
-            android:layout_marginRight="10"
-            android:layout_marginBottom="10"
-            android:background="@android:color/holo_green_light"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#8ac926"
             android:text="Green" />
 
         <Button
             android:id="@+id/yellowButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10"
-            android:layout_marginTop="10"
-            android:layout_marginRight="10"
-            android:layout_marginBottom="10"
-            android:background="@android:color/holo_orange_light"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#ffca3a"
             android:text="Yellow" />
 
         <RadioGroup
+            android:id="@+id/radioGroup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10"
-            android:layout_marginTop="10"
-            android:layout_marginRight="10"
-            android:layout_marginBottom="10"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -114,10 +115,10 @@
             android:id="@+id/colorBox"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="10"
-            android:layout_marginTop="10"
-            android:layout_marginRight="10"
-            android:layout_marginBottom="10"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
             android:background="@android:color/holo_purple"
             android:gravity="center" />
 
